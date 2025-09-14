@@ -182,25 +182,3 @@
     document.getElementById('errorBox').classList.add('hidden');
   }
  </script>
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-@media screen and (max-width: 600px) {
-  body {
-    align-items: flex-start;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .center-container {
-    margin: auto 20px;
-    max-width: 90%;
-  }
-
-  .login-box {
-    width: 100%;
-  }
-}
-
